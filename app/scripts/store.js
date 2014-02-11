@@ -1,0 +1,1 @@
+Chatclient.ApplicationAdapter = DS.FixtureAdapter;
