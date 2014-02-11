@@ -17,11 +17,10 @@
             <div>
                 <div class="col-md-3">
                     <div class="well sidebar-nav">
-                        <strong>Colors</strong>
+                        <strong>Links</strong>
                         <ul class="list-group">
-                        {{#each item in controller}}
-                            <li class="list-group-item">{{item}}</li>
-                        {{/each}}
+                            <li class="list-group-item">{{#link-to 'posts'}}Posts{{/link-to}}</li>
+                            <li class="list-group-item">{{#link-to 'about'}}About{{/link-to}}</li>
                         </ul>
                     </div>
                 </div>
