@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-md-3">
+    <div class="well sidebar-nav">
+      <strong>Rooms</strong>
+      <ul class="nav">
+        {{#each model}}
+        <li>{{#link-to 'room' this}}{{name}}{{/link-to}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+  <div>
+    {{outlet}}
+  </div>
+</div>
